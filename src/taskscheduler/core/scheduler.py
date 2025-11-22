@@ -5,7 +5,7 @@ import time
 from threading import Lock, Thread
 from concurrent.futures import ThreadPoolExecutor
 
-from taskscheduler.models import Status, Priority, Task
+from src.taskscheduler.models import Status, Priority, Task
 
 class Scheduler:
     """Represents the scheduler class"""
